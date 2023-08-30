@@ -56,10 +56,17 @@ _**LexufyBot**_ is an **Advanced** and **Simple** ***_MusicBot_*** Made By   **_
 | •uptime | `Display` the current uptime informations of the bot |
 
 # **Dashboard_Preview**
-![home](https://media.discordapp.net/attachments/1137053277670887524/1139219011326988419/screencapture-localhost-home-2023-08-08-01_45_52.png?width=207&height=467) ![main](https://media.discordapp.net/attachments/1137053277670887524/1139219012442652752/image.png?width=997&height=468)
+![home](https://i.imgur.com/iWT3p53.png?width=207&height=467) 
+
+![main](https://media.discordapp.net/attachments/1137053277670887524/1139219012442652752/image.png?width=997&height=468)
+
 ![servers](https://media.discordapp.net/attachments/1137053277670887524/1139219011599597639/image.png?width=997&height=468)
-![Dashboard](https://media.discordapp.net/attachments/1137053277670887524/1139219011876429874/image.png?width=1025&height=396)
-![Dashboard2](https://media.discordapp.net/attachments/1137053277670887524/1139219012140683425/image.png?width=1025&height=350)
+
+![Dashboard1](https://i.imgur.com/6oftWTE.png?width=1025&height=396)
+
+![Dashboard](https://i.imgur.com/We1Bc6K.png?width=1025&height=396)
+
+![Dashboard2](https://i.imgur.com/CDbEuuN.png?width=1025&height=350)
 
 ## Installation
 
@@ -81,7 +88,7 @@ npm run start
 
 **_Click The `The Button` Down Below_**
 
-[![Repl.it](https://i.imgur.com/jztSOMQ.png)](https://replit.com/github/alidexter001/LexufyBotv2.0)
+[![Repl.it](https://i.imgur.com/jztSOMQ.png)](https://replit.com/github/alidexter001/LexufyBot-V2.0)
 
 **_On The `Shell` Type The Following Commands_**
 ```sh
@@ -108,6 +115,7 @@ __To fix it:__
 ![preview](https://i.imgur.com/sy8SSjd.png)
 ## *_Development_*
 **_`⚠️You are free to edit the code or use a part of it on your project but don't change the copyright and author`_**
+
 **_`⚠️All the rights go to the C4•Clan, if you want to post a video about it, you will be obliged to add the C4•Clan Tag and discord server on the code. Incase of any rules breaking, we will contact the youtube support and your hosting platform to get your code and video down`_**
 
 ## License
