@@ -115,6 +115,7 @@ __To fix it:__
 ![preview](https://i.imgur.com/sy8SSjd.png)
 ## *_Development_*
 **_`⚠️You are free to edit the code or use a part of it on your project but don't change the copyright and author`_**
+
 **_`⚠️All the rights go to the C4•Clan, if you want to post a video about it, you will be obliged to add the C4•Clan Tag and discord server on the code. Incase of any rules breaking, we will contact the youtube support and your hosting platform to get your code and video down`_**
 
 ## License
