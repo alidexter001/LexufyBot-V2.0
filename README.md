@@ -88,7 +88,7 @@ npm run start
 
 **_Click The `The Button` Down Below_**
 
-[![Repl.it](https://i.imgur.com/jztSOMQ.png)](https://replit.com/github/alidexter001/LexufyBotv2.0)
+[![Repl.it](https://i.imgur.com/jztSOMQ.png)](https://replit.com/github/alidexter001/LexufyBot-V2.0)
 
 **_On The `Shell` Type The Following Commands_**
 ```sh
