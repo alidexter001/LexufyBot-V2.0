@@ -56,9 +56,14 @@ _**LexufyBot**_ is an **Advanced** and **Simple** ***_MusicBot_*** Made By   **_
 | •uptime | `Display` the current uptime informations of the bot |
 
 # **Dashboard_Preview**
-![home](https://media.discordapp.net/attachments/1137053277670887524/1139219011326988419/screencapture-localhost-home-2023-08-08-01_45_52.png?width=207&height=467) ![main](https://media.discordapp.net/attachments/1137053277670887524/1139219012442652752/image.png?width=997&height=468)
+![home](https://i.imgur.com/iWT3p53.png?width=207&height=467) 
+
+![main](https://media.discordapp.net/attachments/1137053277670887524/1139219012442652752/image.png?width=997&height=468)
+
 ![servers](https://media.discordapp.net/attachments/1137053277670887524/1139219011599597639/image.png?width=997&height=468)
+
 ![Dashboard](https://media.discordapp.net/attachments/1137053277670887524/1139219011876429874/image.png?width=1025&height=396)
+
 ![Dashboard2](https://media.discordapp.net/attachments/1137053277670887524/1139219012140683425/image.png?width=1025&height=350)
 
 ## Installation
