@@ -62,9 +62,11 @@ _**LexufyBot**_ is an **Advanced** and **Simple** ***_MusicBot_*** Made By   **_
 
 ![servers](https://media.discordapp.net/attachments/1137053277670887524/1139219011599597639/image.png?width=997&height=468)
 
-![Dashboard](https://media.discordapp.net/attachments/1137053277670887524/1139219011876429874/image.png?width=1025&height=396)
+![Dashboard1](https://i.imgur.com/6oftWTE.png?width=1025&height=396)
 
-![Dashboard2](https://media.discordapp.net/attachments/1137053277670887524/1139219012140683425/image.png?width=1025&height=350)
+![Dashboard](https://i.imgur.com/We1Bc6K.png?width=1025&height=396)
+
+![Dashboard2](https://i.imgur.com/CDbEuuN.png?width=1025&height=350)
 
 ## Installation
 
