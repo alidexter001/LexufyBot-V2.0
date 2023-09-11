@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= botname %> - Dashboard</title>
+    <link rel="shortcut icon" href=<%= botAvatar %> />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="//db.onlinewebfonts.com/c/721c73bcd2e49f3a621991089838b503?family=Euclid+Circular+B+Medium"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="../JS/jquery-3.6.0.js"></script>
+  </head>
+
+  <body>
+    <section class="main">
+      <!--Main Navigation-->
+      <header>
+        <!-- Sidebar -->
+        <nav id="sidebarMenu" class="collapse d-lg-block sidebar">
+          <div class="position-sticky">
+            <div class="list-group list-group-flush mx-3 mt-4">
+              <a
+                href="/"
+                class="list-group-item list-group-item-action py-2 ripple"
+                style="
+                  background: rgba(255, 255, 255, 0.35);
+                  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                  backdrop-filter: blur(9px);
+                  -webkit-backdrop-filter: blur(9px);
+                  border-radius: 10px;
+                  border: 1px solid rgba(255, 255, 255, 0.18);
+                "
+                aria-current="true"
+              >
+                <i class="fas fa-home fa-fw me-3"></i
+                ><span>Home</span>
+              </a>
+              <br />
+              <a
+                href="/dashboard"
+                class="list-group-item list-group-item-action py-2 ripple active"
+                style="
+                  background: rgba(255, 255, 255, 0.35);
+                  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                  backdrop-filter: blur(9px);
+                  -webkit-backdrop-filter: blur(9px);
+                  border-radius: 10px;
+                  border: 1px solid rgba(255, 255, 255, 0.18);
+                "
+                aria-current="true"
+              >
+                <i class="fas fa-tachometer-alt fa-fw me-3"></i
+                ><span>Main Dashboard</span>
+              </a>
+              <br />
+              <a
+                href="/dashboard/server"
+                class="list-group-item list-group-item-action py-2 ripple"
+                style="
+                  background: rgba(255, 255, 255, 0.35);
+                  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                  backdrop-filter: blur(9px);
+                  -webkit-backdrop-filter: blur(9px);
+                  border-radius: 10px;
+                  border: 1px solid rgba(255, 255, 255, 0.18);
+                "
+              >
+                <i class="fas fa-server fa-fw me-3"></i
+                ><span>Manage Servers</span>
+              </a>
+              <br />
+              <a
+                href="/logout"
+                class="list-group-item list-group-item-action py-2 ripple"
+                style="
+                  background: rgba(255, 255, 255, 0.35);
+                  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                  backdrop-filter: blur(9px);
+                  -webkit-backdrop-filter: blur(9px);
+                  border-radius: 10px;
+                  border: 1px solid rgba(255, 255, 255, 0.18);
+                "
+              >
+                <i class="fas fa-sign-out-alt fa-fw me-3"></i
+                ><span>Logout</span>
+              </a>
+            </div>
+          </div>
+        </nav>
+        <!-- Sidebar -->
+
+        <!-- Navbar -->
+        <nav
+          id="main-navbar"
+          class="navbar navbar-expand-lg navbar-light fixed-top"
+        >
+          <!-- Container wrapper -->
+          <div class="container-fluid">
+            <!-- Toggle button -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#sidebarMenu"
+              aria-controls="sidebarMenu"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              onclick="function re(){ let r = $('#sidebarMenu'); if(r.hasClass('collapse'))r.removeClass('collapse');else r.addClass('collapse')}re()"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Brand -->
+            <a class="navbar-brand text-white" href="/">
+              <img src=<%= botAvatar %> height="40" alt="" loading="lazy" />
+              <%= botname %>'s Dashboard
+            </a>
+          </div>
+        </nav>
+        <!-- Navbar -->
+      </header>
+      <!--Main Navigation-->
+
+      <!--Main layout-->
+      <main style="margin-top: 58px">
+        <div class="container pt-4">
+          <!--Section: Main-->
+          <section>
+            <h1><%= botname %>'s Details</h1>
+            <div class="row">
+              <div class="col-xl-3 col-sm-6 col-12 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between px-md-1">
+                      <div>
+                        <h3 class="text-dark" id="guilds"><%= guilds %></h3>
+                        <p class="mb-0">Servers</p>
+                      </div>
+                      <div class="align-self-center">
+                        <i class="fas fa-server text-dark fa-3x"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-sm-6 col-12 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between px-md-1">
+                      <div>
+                        <h3 class="text-info" id="users"><%= users %></h3>
+                        <p class="mb-0">Users</p>
+                      </div>
+                      <div class="align-self-center">
+                        <i class="far fa-user text-info fa-3x"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-sm-6 col-12 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between px-md-1">
+                      <div>
+                        <h3 class="text-warning" id="commands"><%= commands %></h3>
+                        <p class="mb-0">Commands</p>
+                      </div>
+                      <div class="align-self-center">
+                        <i class="fas fa-fw fa-align-left text-warning fa-3x"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-sm-6 col-12 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between px-md-1">
+                      <div>
+                        <h3 style="color: #22b17a;" id="commandsUsed"><%= usedCommands %></h3>
+                        <p class="mb-0">Commands Used</p>
+                      </div>
+                      <div class="align-self-center">
+                        <i class="fas fa-code fa-3x" style="color: #22b17a;"></i></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Footer -->
+          <footer class="footer bg-base">
+              <p>
+                &copy; <span id="cp-year"></span> Copyright <%= owner %>. All Rights
+                Reserved.
+              </p>
+      
+              <p style="letter-spacing: 0.1em;" class="is-uppercase">
+                Website Designed By
+                <a
+                  href= <%= serverInvite %>
+                  class="blurple has-text-weight-bold"
+                  target="_blank"
+                  >C4•Team™</a>
+              </p>
+            </div>
+          </div>
+          <!-- End Footer -->
+        </div>
+      </main>
+      <!--Main layout-->
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="../JS/script.js"></script>
+    <link rel="stylesheet" href="../CSS/dashboard.css" />
+  </body>
+</html>
