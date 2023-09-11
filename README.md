@@ -93,7 +93,7 @@ npm run start
 **_On The `Shell` Type The Following Commands_**
 ```sh
 npm i
-node index.js
+npm run start
 ```
 ***
 
