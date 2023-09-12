@@ -19,7 +19,7 @@ async function looped(client, message, args) {
     if(!player) return `❌ **| Nothing Is Played Right Now.**`
     if(!channel) return `❌ **| You have to be on a voice channel to use this command.**`
     if(channel && botChannel && channel !== botChannel) return`❌ **| You have to be on the same voice channel as mine to use this command.**`
-    if((!['track', 'queue'].includes(type)) || !type) return `❌ **| Usage: ${prefix}bassboost \`<track | queue>\`.**`
+    if((!['track', 'queue'].includes(type)) || !type) return `❌ **| Usage: ${prefix}loop \`<track | queue>\`.**`
     if(type === 'queue'){
         try{
             await player.setQueueRepeat(!player.queueRepeat);
